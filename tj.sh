@@ -267,7 +267,7 @@ if [ $test_in_n -eq 0 ]; then
     echo "No tests found in $TJ_PATH." >&2
     exit 1
 else
-    log 2 "Using $test_in_n $FILE_PREFIX.in files."
+    echo "Using $test_in_n $FILE_PREFIX.in files."
     if [ -z "$MAIN_FILE" ]; then
         echo "Error: Missing main java file!" >&2
         exit 1
